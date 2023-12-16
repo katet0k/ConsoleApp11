@@ -143,11 +143,11 @@ namespace ConsoleApp1
             CultureInfo.DefaultThreadCurrentUICulture = culture;
             Console.OutputEncoding = Encoding.UTF8;
 
-            GameInfo game1 = new GameInfo("Genshin Impact", "miHoYo", "RPG", new DateTime(2023, 11, 08), true, 1000, "", "");
-            GameInfo game2 = new GameInfo("Temple Run 2", "Imangi Studios", "Нескінченний бігун", new DateTime(2015, 01, 16), true, 900, "", "");
-            GameInfo game3 = new GameInfo("The Legend of Zelda: Tears of the Kingdom", "Nintendo Entertainment Planning & Development", " Головоломка, Пригодницький бойовик, Файтинг, Шутер", new DateTime(2023, 03, 12), true, 800, "", "");
-            GameInfo game4 = new GameInfo("Marvel's Spider-Man 2", " Insomniac Games", "Пригодницький бойовик, Файтинг, Платформер", new DateTime(2023, 10, 20), false, 700, "", "");
-            GameInfo game5 = new GameInfo("FIFA 23", "Electronic Arts, EA Sports, EA Romania, EA Vancouver", "Спортивний симулятор, Симулятор, Ігрове моделювання", new DateTime(2022, 09, 27), false, 600, "", "");
+            GameInfo game1 = new GameInfo("Genshin Impact", "miHoYo", "RPG", new DateTime(2023, 11, 08), true, 1000, "Студія 1", "Країна1");
+            GameInfo game2 = new GameInfo("Temple Run 2", "Imangi Studios", "Нескінченний бігун", new DateTime(2015, 01, 16), true, 900, "Студія2", "Країна2");
+            GameInfo game3 = new GameInfo("The Legend of Zelda: Tears of the Kingdom", "Nintendo Entertainment Planning & Development", " Головоломка, Пригодницький бойовик, Файтинг, Шутер", new DateTime(2023, 03, 12), true, 800, "Студія3", "Країна3");
+            GameInfo game4 = new GameInfo("Marvel's Spider-Man 2", " Insomniac Games", "Пригодницький бойовик, Файтинг, Платформер", new DateTime(2023, 10, 20), false, 700, "Студія4", "Країна4");
+            GameInfo game5 = new GameInfo("FIFA 23", "Electronic Arts, EA Sports, EA Romania, EA Vancouver", "Спортивний симулятор, Симулятор, Ігрове моделювання", new DateTime(2022, 09, 27), false, 600, "Студія5", "Країна5");
 
             try
             {
