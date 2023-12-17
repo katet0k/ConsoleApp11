@@ -153,7 +153,14 @@ namespace ConsoleApp1
             {
                 
                     using (var db = new GameDbContext())
-                    {  db.SaveChanges();
+                    {
+                    db.Add(game1);
+                    db.Add(game2);
+                    db.Add(game3);
+                    db.Add(game4);
+                    db.Add(game5);
+
+                    db.SaveChanges();
 
                     var games = db.GameInfo.ToList();
                     foreach (var game in games)
@@ -170,7 +177,6 @@ namespace ConsoleApp1
                         db.DisplayStudiosAndStylesWithMoreGames();
                     }
 
-                
 
             }
 
